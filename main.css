@@ -33,12 +33,14 @@ body {
   width: 30%;
   float: left;
   padding: 20px;
+  border-right: solid;
 }
 
 .left-pane-card{
   display: block;
   background-color: white;
   padding: 15px;
+  margin-top: 15px;
   border: solid;
   border-width:1px;
   border-color: rgba(0,0,0,.12);
@@ -62,6 +64,12 @@ body {
 
 .card h3 {
   padding: 5px;
+  margin: 0;
+}
+
+.card h4 {
+  padding-left: 5px;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -90,10 +98,10 @@ body {
 }
 
 .jc-header {
-	border-top: 10px solid #81d4fa;
+	border-top: 10px solid #001970;
 	border-bottom: 1px solid #e8e8e8;
 	height: 140px;
-	background: #b6ffff;
+	background: #666ad1;
 	padding: inherit;
 	margin:0;
   width: auto;
@@ -145,6 +153,14 @@ body {
 	height: 100px;
 	border-top: 1px solid rgba(0,0,0,0.1);
 	padding: 5px;
+  background-color: #303f9f;
+  color: white;
+}
+
+.jc-sub-header a{
+  color: white;
+  font-style:normal;
+  text-decoration: none;
 }
 
 .top-container {
